@@ -35,3 +35,13 @@ GetCurrencySymbolFromCode("WON")
 
 tolower("HELLO")
 tolower("COMPUTER")
+
+var even = [200, 63, 54, 17, 8, 312, 201];
+
+var evens = even.filter(function(x) {
+  if (x % 2 === 0 || x === 0) {
+    return x;
+  }
+})
+
+console.log(evens);
