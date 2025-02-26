@@ -42,6 +42,7 @@ var evens = even.filter(function(x) {
   if (x % 2 === 0 || x === 0) {
     return x;
   }
+  
 })
 
 console.log(evens);
